@@ -1,0 +1,194 @@
+html,
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    position: fixed;
+}
+
+.sidebar {
+    width: 216px;
+    height: 768px;
+    background-color: #F3F5F8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 100;
+    color: #3694b9;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;
+}
+
+.name {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.position {
+    font-size: 12px;
+}
+
+.add-project {
+    background-color: #2979FF;
+    color: white;
+    height: 43px;
+    width: 168px;
+    font-size: 16px;
+    text-decoration: solid;
+    font-weight: 500;
+}
+
+.sidebar-sub-container {
+    padding: 21px 24px;
+}
+
+.menu {
+    color: #2d3f5c;
+    opacity: 0.61;
+    font-weight: bold;
+}
+
+.menu-title {
+    color: #2D3F5C;
+    font-weight: 300;
+    padding-top: 24px;
+    position: relative;
+    color: #2D3F5C;
+}
+
+.active {
+    color: #2979FF;
+}
+
+.notification-count {
+    position: absolute;
+    right: 16px;
+    background-color: #ED8080;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+.logout {
+    position: absolute;
+    bottom: 24px;
+}
+
+
+.content {
+    padding: 40px 48px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.page-title {
+    font-size: 24px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.gray {
+    height: 26px;
+    width: 67px;
+    background: transparent;
+    border: 2px solid #c1c1c1;
+}
+
+.blue {
+    height: 26px;
+    background: transparent;
+    border: 2px solid #2979FF;
+    color: #2979FF;
+}
+
+.applied-filter {
+    color: #4A4A4A;
+    font-size: 17px;
+    padding-top: 19px;
+    padding-bottom: 8px;
+}
+
+.chips-container {
+    display: flex;
+}
+
+.chip {
+    background-color: #e6e6e6;
+    height: 30px;
+    width: auto;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #2D3F5C;
+    justify-content: space-between;
+}
+
+.remove-filter {
+    padding-left: 12px;
+}
+
+.clear {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    color: #2979FF;
+    margin: 10px;
+    background-color: #2979ff45;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 231px;
+    width: 206px;
+    box-shadow: 0 1px 2px 0 #909090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.profile-image {
+    border-radius: 100%;
+    border: 2px solid #2979FF;
+}
+
+.name {
+    font-size: 20px;
+    padding-top: 12px;
+}
